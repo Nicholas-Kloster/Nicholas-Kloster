@@ -1,4 +1,4 @@
-# Nicholas Kloster
+# Nicholas Michael Kloster
 
 **AI Red Teaming Specialist · CVE Author · U.S. Army Veteran**
 
