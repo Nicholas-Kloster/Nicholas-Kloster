@@ -1,10 +1,23 @@
 # Nicholas Michael Kloster
 
-**Independent Security Researcher · Technical Author · Critical Infrastructure Operator · U.S. Army Infantry Veteran (SSG)**
+**Independent Security Researcher · AI Red Teaming Specialist · CVE Author · Critical Infrastructure Operator · U.S. Army Infantry Veteran (SSG)**
 
-Specializing in enterprise network security appliances, identity management platforms, and industrial control systems. This profile documents zero-day vulnerability disclosures, vendor hardening defect advisories, priority emergency telecommunications administration, CISA ICS/OT training, ITDRC deployments, DC3 cyber coursework, FEMA certifications, and military leadership.
+Specializing in enterprise network security appliances, identity management platforms, industrial control systems, and AI/LLM offensive security. I break LLMs and the infrastructure around them, write findings to vendor-grade standards, and ship the tools I use. Disclosure-first.
+
+This profile documents zero-day vulnerability disclosures, vendor hardening defect advisories, AI red team research, priority emergency telecommunications administration, CISA ICS/OT training, ITDRC deployments, DC3 cyber coursework, FEMA certifications, and military leadership.
 
 [![Medium](https://img.shields.io/badge/Medium-@NicholasKloster-black?logo=medium)](https://medium.com/@NicholasKloster)
+[![Web](https://img.shields.io/badge/Web-nuclide--research.com-blue)](https://nuclide-research.com)
+
+---
+
+## Selected Disclosures
+
+- **Anthropic — Claude 4.6 Jailbreak.** Public disclosure of "Ambiguity Front-Loading," a behavioral jailbreak affecting Opus 4.6, Sonnet 4.6, and Haiku 4.5. Threat model, reproduction, mitigations. → [Repo](https://github.com/Nicholas-Kloster/claude-4.6-jailbreak-vulnerability-disclosure-unredacted)
+- **CISA / CVE-2025-4364 (CVSS 8.7).** Unauthenticated remote access in Assured Telematics fleet management. Federal advisory ICSA-25-140-11. → [CISA Advisory](https://www.cisa.gov/news-events/ics-advisories/icsa-25-140-11)
+- **Amazon RXVM.** Reverse-engineered the client-side bot detection bytecode VM. Extracted embedded neural network. Decrypted RC4 cookies. Confirmed by Amazon. → [Repo](https://github.com/Nicholas-Kloster/RXVM)
+- **Google VRP.** Sandbox escape. Confirmed.
+- **30+** more findings across HackerOne, Bugcrowd, and CERT/CC-coordinated channels — fintech, crypto, KYC/IDV, AI SaaS, ICS.
 
 ---
 
@@ -50,6 +63,18 @@ Beyond formal CVE assignments, the following architectural vulnerabilities were 
 
 ---
 
+## Tools I Built
+
+| Tool | What it is |
+|---|---|
+| [**aimap**](https://github.com/Nicholas-Kloster/aimap) | Go scanner for AI/ML infrastructure. 23+ service fingerprints — LLM runtimes, vector databases, agent frameworks. BlackArch-packaged. |
+| [**BARE**](https://github.com/Nicholas-Kloster/BARE) | Single Rust binary. BERT encoder + 3,904 pre-encoded Metasploit modules. Runs offline in SCIFs and air-gapped networks. |
+| [**AI-LLM-Infrastructure-OSINT**](https://github.com/Nicholas-Kloster/AI-LLM-Infrastructure-OSINT) | Verified Shodan and Censys queries for vector DBs, MCP servers, RAG stacks, model-serving endpoints, GPU compute. |
+| [**Cortex**](https://github.com/Nicholas-Kloster/cortex-framework) | LLM API auth-boundary analyzer. Detects authentication boundary violations and authorization drift. |
+| [**rag-pipeline-demo**](https://github.com/Nicholas-Kloster/rag-pipeline-demo) | Live four-stage RAG pipeline. Reverse-engineered the claude.ai artifact sandbox to make it work. |
+| [**recongraph**](https://github.com/Nicholas-Kloster/recongraph) | Seed-polymorphic reconnaissance engine with environmental contamination detection. |
+| [**RXVM**](https://github.com/Nicholas-Kloster/RXVM) | Amazon bot detection RE toolkit. Bytecode VM disassembler, neural network extraction, RC4 decryption. |
+
 ## Open Source & Research Projects
 
 | Project | Description |
@@ -65,6 +90,13 @@ Beyond formal CVE assignments, the following architectural vulnerabilities were 
 | [brain-gem](https://github.com/Ablation-Tool/brain-gem) | Standalone Bayesian field notebook with deterministic and stochastic chambers and hash-chained memory |
 | [gem-helen](https://github.com/Ablation-Tool/gem-helen) | Optimized native geometry and forecast laboratory |
 | [Chalkboard](https://github.com/Ablation-Tool/Chalkboard) | Ideas, templates, and prompts — free for anyone to take and use |
+
+## Other Work
+
+- [**safeconvert**](https://github.com/Nicholas-Kloster/safeconvert) — Covert domestic-violence resource PWA disguised as a unit converter.
+- [**nuclide-instruments**](https://github.com/Nicholas-Kloster/nuclide-instruments) — Audio-visual instruments built with Tone.js + Canvas.
+- [**nuclide-labs**](https://github.com/Nicholas-Kloster/nuclide-labs) — Interactive security education — cell tower data exposure, traffic analysis, privacy field guide.
+- Poetry under the name **Savio**.
 
 ---
 
@@ -173,7 +205,7 @@ Completed specialized technical coursework through the Department of Defense Cyb
 ## Publications & Professional Affiliations
 
 * **[Medium Technical Publications](https://medium.com/@NicholasKloster):** Authored technical documentation on [TempleOS kernel/system commands](https://medium.com/@NicholasKloster/templeos-commands-cf5f9a03f837), military service records, and verified FEMA, DoD, and ethical hacking certification portfolios.
-* **InfraGard (FBI):** Member, Missouri – Kansas City chapter — FBI-affiliated public-private partnership for critical infrastructure protection.
+* **InfraGard (FBI):** Missouri – Kansas City chapter — FBI-affiliated public-private partnership for critical infrastructure protection.
 * **FEMA Student Identification (SID):** Registered FEMA SID holder for Emergency Management Institute and Center for Domestic Preparedness training.
 * **National Fire Protection Association (NFPA):** Recognized Member in Good Standing, issued November 30, 2024.
 
@@ -181,8 +213,22 @@ Completed specialized technical coursework through the Department of Defense Cyb
 
 ## U.S. Army Service & Leadership
 
-* **Primary Specialty:** Served 8 years and 3 months as an 11B3O Infantryman Non-Commissioned Officer (Staff Sergeant) with Additional Skill Identifier 8R, concluding service at Rifle Company FC.
+* **Primary Specialty:** Served 8 years and 3 months as an 11B3O Infantryman Non-Commissioned Officer (Staff Sergeant, E-6) with Additional Skill Identifier 8R, concluding service at Rifle Company FC. ETS 2023. Inactive Secret clearance.
 * **Emergency Telecommunications Leadership:** Served as the Louisiana Program Administrator for the GETS and WPS priority telecommunications programs from 2021 to 2023, overseeing enrollment and credential issuance for all military personnel.
-* **Combat Deployments:** Completed two combat deployments in Afghanistan within designated imminent danger pay areas from March to November 2016 and March to November 2018.
+* **Combat Deployments:** Completed two combat deployments to Kandahar, Afghanistan within designated imminent danger pay areas from March to November 2016 and March to November 2018.
 * **Military Education:** Graduated from the five-week Advanced Leader Course in 2021, two-week Basic Military Mountaineering Course in 2020, four-week Basic Leader Course in 2018, and one-week Combat Lifesavers Course.
 * **Decorations & Awards:** Army Commendation Medal with C Device, second Army Commendation Medal, Army Achievement Medal, second Good Conduct Medal, Afghanistan Campaign Medal with Star, and NATO Medal.
+
+---
+
+## NuClide
+
+Most of my recent work is built collaboratively with Claude (Anthropic). The collaboration is **NuClide** — Nick + Claude. The tools, the disclosures, the research methodology — that's what happens when a security researcher and a language model build things together instead of just talking.
+
+No degree. Everything here is self-taught.
+
+## Contact
+
+[nuclide-research.com](https://nuclide-research.com) · [Medium](https://medium.com/@NicholasKloster)
+
+**Open to:** AI/LLM red team roles · offensive security research · advisory · contract tool development
